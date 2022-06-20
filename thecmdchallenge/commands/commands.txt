@@ -1,0 +1,35 @@
+# Commands used
+#1  Get inside the thecmdchallenge/ directory
+cd thecmdchallenge/
+#2  Print current directory path  
+pwd
+#3  List all the files from the current directory including the hidden ones
+ls -la
+#4  Now list all the files inside the project, recursively (all files in the hierarchy).
+ls -la -R
+#5  Clear all the clutter from the command line
+clear
+#6  Go to the last level below the small-name folder and show on the console the content of the trophy.txt file.
+cd small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/
+cat trophy.txt
+#7  Move one level up and get to the funcode directory and list all files with the javascript typical extension.
+cd ../../../../funcode/
+ls *.js
+#8  Create a new directory inside funcode/the-most-funny/ called “not-that-funny“.
+mkdir the-most-funny/not-that-funny
+#9  Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt.
+cp ../boringfolder/event-more-boring/i-can-believe-how-boring/the-ulrimate-boring-inception/the-mostboring-text.txt the-most-funny/not-that-funny/lol.txt
+#10 Move funcode/kids.jpg inside funcode/images/hello/
+mv kids.jpg images/hello/
+#11 Remove the “small-name“ directory.
+rm -R ../small-name/
+#12 Print in the command line the content of the-ultimate-joke.txt.
+cd ..
+find . -name the-ultimate-joke.txt
+cat funcode/the-most-funny/lol/the-ultimate-joke.txt 
+#13 Remove all the contents from the boringfolder, they are extremely boring…
+rm -r boringfolder/*
+#14 Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor
+vi kamehameha/dragon-ball-jokes.md 
+#15 Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor.
+# in VI dd to delete the line and :wq to save and exit
